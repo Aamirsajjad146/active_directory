@@ -1,4 +1,4 @@
-name: active_directory
+name: msl_oauth_login
 description: Azure Active Directory OAuth2 authentication package for Flutter with a ready-to-use login button.
 version: 1.0.0
 

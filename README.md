@@ -1,4 +1,4 @@
-# active_directory
+# msl_oauth_login
 
 A Flutter OAuth2 authentication package with a ready-to-use login button.
 Supports **Microsoft Azure AD**, **Google**, and any other OAuth2 provider.
@@ -21,8 +21,8 @@ In your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  active_directory:
-    path: ../packages/activedirectory   # adjust path to your setup
+  msl_oauth_login:
+    path: ../packages/msl_oauth_login   # adjust path to your setup
 ```
 
 ---
@@ -74,7 +74,7 @@ Add to `ios/Runner/Info.plist` if your redirect URI is non-HTTPS:
 ### Microsoft Azure AD
 
 ```dart
-import 'package:active_directory/active_directory.dart';
+import 'package:msl_oauth_login/msl_oauth_login.dart';
 
 class LoginScreen extends StatelessWidget {
   static final _config = Config(

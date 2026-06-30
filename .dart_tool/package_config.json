@@ -356,7 +356,7 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "active_directory",
+      "name": "msl_oauth_login",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.12"

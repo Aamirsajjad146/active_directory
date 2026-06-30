@@ -1,10 +1,10 @@
 {
   "roots": [
-    "active_directory"
+    "msl_oauth_login"
   ],
   "packages": [
     {
-      "name": "active_directory",
+      "name": "msl_oauth_login",
       "version": "1.0.0",
       "dependencies": [
         "flutter",
