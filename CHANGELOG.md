@@ -1,3 +1,9 @@
+## 1.0.1
+
+* Bumped `webview_flutter` to `^4.14.0`.
+* Bumped `flutter_secure_storage` to `^10.3.1`.
+* Bumped `shared_preferences` to `^2.5.5`.
+
 ## 1.0.0
 
 * Initial release.
