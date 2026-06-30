@@ -9,15 +9,13 @@ import 'request_code.dart';
 import 'request_token.dart';
 
 class AadOAuth {
-  final Config _config;
   final AuthStorage _authStorage;
   late final RequestCode _requestCode;
   late final RequestToken _requestToken;
   Token? _token;
 
   AadOAuth(Config config)
-      : _config = config,
-        _authStorage = AuthStorage() {
+      : _authStorage = AuthStorage() {
     _requestCode = RequestCode(config);
     _requestToken = RequestToken(config);
   }

@@ -171,7 +171,7 @@ class MicrosoftLoginButton extends StatelessWidget {
       height: height,
       style: ElevatedButton.styleFrom(
         backgroundColor: backgroundColor,
-        disabledBackgroundColor: backgroundColor.withOpacity(0.7),
+        disabledBackgroundColor: backgroundColor.withValues(alpha: 0.7),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(borderRadius),
         ),
@@ -261,7 +261,7 @@ class GoogleLoginButton extends StatelessWidget {
       height: height,
       style: ElevatedButton.styleFrom(
         backgroundColor: backgroundColor,
-        disabledBackgroundColor: backgroundColor.withOpacity(0.7),
+        disabledBackgroundColor: backgroundColor.withValues(alpha: 0.7),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(borderRadius),
           side: const BorderSide(color: Color(0xFFDADCE0)),

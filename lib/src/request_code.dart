@@ -117,7 +117,7 @@ class _WebViewPageState extends State<_WebViewPage> {
     return Scaffold(
       body: PopScope(
         canPop: false,
-        onPopInvoked: (bool didPop) async {
+        onPopInvokedWithResult: (bool didPop, _) async {
           if (didPop) return;
           if (await widget.controller.canGoBack()) {
             widget.controller.goBack();
