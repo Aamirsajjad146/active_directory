@@ -3,6 +3,8 @@
 A Flutter OAuth2 authentication package with a ready-to-use login button.
 Supports **Microsoft Azure AD**, **Google**, and any other OAuth2 provider.
 
+**Source code:** [github.com/Aamirsajjad146/active_directory](https://github.com/Aamirsajjad146/active_directory/tree/main)
+
 ---
 
 ## Features
