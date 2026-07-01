@@ -1,6 +1,6 @@
 name: msl_oauth_login
 description: Azure Active Directory OAuth2 authentication package for Flutter with a ready-to-use login button.
-version: 1.0.1
+version: 1.0.3
 repository: https://github.com/Aamirsajjad146/active_directory
 
 environment:
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.1.0
-  webview_flutter: ^4.14.0
-  flutter_secure_storage: ^10.3.1
-  shared_preferences: ^2.5.5
+  http: '>=1.1.0'
+  webview_flutter: '>=4.14.0'
+  flutter_secure_storage: '>=9.0.0'
+  shared_preferences: '>=2.5.5'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: '>=5.0.0'

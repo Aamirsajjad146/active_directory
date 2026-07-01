@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Relaxed `flutter_secure_storage` constraint to `>=9.0.0` to allow any version from 9.0.0 onwards without conflicts.
+
 ## 1.0.1
 
 * Bumped `webview_flutter` to `^4.14.0`.
