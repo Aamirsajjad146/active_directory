@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "msl_oauth_login",
-      "version": "1.0.3",
+      "version": "1.0.2",
       "dependencies": [
         "flutter",
         "flutter_secure_storage",
